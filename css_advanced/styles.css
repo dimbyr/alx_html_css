@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: Source Sans Pro;
+}
+
+main, section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header>nav {
+  width: 1103px;
+  height: 29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 50px;
+  list-style: none;
+  font-size: 12px;
+}
+
+nav>img {
+  width: 167px;
+  height: 29px;
+}
+
+.menu {
+width: 234px;
+height: 15px;
+}
+
+
+
