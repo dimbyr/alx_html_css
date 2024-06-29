@@ -6,11 +6,21 @@ body {
   font-family: Source Sans Pro;
 }
 
-main, section {
+main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+section {
+  display: flex;
+}
+
+.getschooled {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 header>nav {
@@ -31,7 +41,7 @@ nav>ul {
   font-size: 12px;
 }
 
-nav>img {
+.logo {
   width: 167px;
   height: 29px;
 }
@@ -41,5 +51,109 @@ width: 234px;
 height: 15px;
 }
 
+.pros-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.pros {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.pro {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 237px;
+}
+
+.testimonials {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.testimonial-image {
+  height: 160px;
+  width: 160px;
+}
+
+.testimonial-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.tutorials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tuto-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.tutorial {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  height: 335px;
+  width: 255px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+}
+
+.membership {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.members {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.member {
+  width: 257px;
+  height: 153px;
+  flex: auto;
+}
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 920px;
+  height: 707px;
+}
+
+.faq-container {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 500px;
+}
 
