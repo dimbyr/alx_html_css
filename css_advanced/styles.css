@@ -188,6 +188,59 @@ height: 15px;
   width: 255px;
 }
 
+.tutorial>img {
+  width: 255px;
+  height: 154px;
+  position: relative;
+}
+
+.face {
+  width: 255px;
+  height: 154px;
+}
+
+.play-icon {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 30%;
+  left: 37%;
+}
+
+.clickable-video {
+  position: relative;
+}
+
+.tutorial>h3,p {
+  margin: 0;
+}
+
+.popular {
+  color: #C271FF;
+}
+
+.author {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+
+.author-profile-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: #C271FF;
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 120px;
+  color: #C271FF;
+}
+
 .stars {
   display: flex;
   flex-direction: row;
