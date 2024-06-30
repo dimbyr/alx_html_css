@@ -125,11 +125,6 @@ height: 15px;
   height: 237px;
 }
 
-.learnpro {
-  color: #C271FF;
-  font-weight: bold;
-}
-
 .pro>p {
   text-align: center;
 }
@@ -215,8 +210,9 @@ height: 15px;
   margin: 0;
 }
 
-.popular {
+.pink-h2 {
   color: #C271FF;
+  font-weight: bold;
 }
 
 .author {
@@ -249,10 +245,12 @@ height: 15px;
 .membership {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
   background-color: #071629;
   width: 1440px;
   height: 502px;
+  color: white;
 }
 
 .members {
@@ -262,9 +260,17 @@ height: 15px;
 }
 
 .member {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 257px;
   height: 153px;
   flex: auto;
+}
+
+.member>p {
+  text-align: center;
 }
 
 .faqs {
