@@ -2,8 +2,19 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   font-family: Source Sans Pro;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('../images/smile.png');
+  background-size: cover;
+  /* height: 1093px; */
+  /* width: 1103px;
+  height: 29px; */
 }
 
 main {
@@ -11,6 +22,10 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+h2 {
+  font-size: 32px;
 }
 
 section {
@@ -21,6 +36,45 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  /* background-image: url('../images/smile.png');
+  background-size: cover; */
+  width: 1440px;
+  height: 1093px;
+  color: white;
+}
+
+.schooled {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.getschooled-title {
+  font-size: 120px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.smiles {
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.register {
+  background-color: #C271FF;
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  border-width: 0px;
+  padding: 0px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 header>nav {
@@ -28,17 +82,20 @@ header>nav {
   height: 29px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  /* gap: 20px; */
   align-items: center;
 }
 
-nav>ul {
+.menu {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   gap: 50px;
   list-style: none;
   font-size: 12px;
+  width: 234px;
+height: 15px;
 }
 
 .logo {
@@ -46,15 +103,12 @@ nav>ul {
   height: 29px;
 }
 
-.menu {
-width: 234px;
-height: 15px;
-}
 
 .pros-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 200px;
 }
 
 .pros {
@@ -71,9 +125,21 @@ height: 15px;
   height: 237px;
 }
 
+.learnpro {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.pro>p {
+  text-align: center;
+}
+
 .testimonials {
   flex-direction: row;
   justify-content: center;
+  background-color: #C271FF;
+  width: 1440px;
+  height: 392px;
 }
 
 .testimonial-image {
@@ -92,6 +158,8 @@ height: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 1228px;
+  height: 450px;
 }
 
 .tuto-container {
@@ -118,6 +186,9 @@ height: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #071629;
+  width: 1440px;
+  height: 502px;
 }
 
 .members {
@@ -144,16 +215,21 @@ height: 15px;
   display: flex;
 }
 
-.footer {
+.footer-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 1440px;
+  height: 249px;
+  /* background-color: #071629; */
 }
 
 .footer-contents {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 500px;
+  /* gap: 500px; */
+ 
 }
 
