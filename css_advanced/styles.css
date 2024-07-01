@@ -26,6 +26,7 @@ main {
 
 h2 {
   font-size: 32px;
+  font-weight: lighter;
 }
 
 section {
@@ -54,6 +55,7 @@ section {
   font-size: 120px;
   font-weight: bold;
   margin-bottom: 0px;
+  margin-top: 156px;
 }
 
 .smiles {
@@ -72,6 +74,7 @@ section {
   border-radius: 22px;
   border-width: 0px;
   padding: 0px;
+  margin-top: 58px;
   color: white;
   font-size: 14px;
   font-weight: bold;
@@ -83,8 +86,9 @@ header>nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* gap: 20px; */
   align-items: center;
+  margin-top: 35px;
+  margin-left: 172px;
 }
 
 .menu {
@@ -95,7 +99,13 @@ header>nav {
   list-style: none;
   font-size: 12px;
   width: 234px;
-height: 15px;
+  height: 15px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .logo {
@@ -115,7 +125,7 @@ height: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 50px;
+  gap: 139px;
 }
 
 .pro {
@@ -134,8 +144,10 @@ height: 15px;
   justify-content: center;
   align-items: center;
   background-color: #C271FF;
-  width: 1440px;
+  width: 943px;
   height: 392px;
+  padding-left: 259px;
+  padding-right: 238px;
 }
 
 .testimonial-image>img {
@@ -166,13 +178,14 @@ height: 15px;
   align-items: center;
   width: 1228px;
   height: 450px;
+  margin-top: 87px;
 }
 
 .tuto-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 20px;
+  justify-content: space-between;
+  gap: 31px;
 }
 
 .tutorial {
@@ -246,11 +259,13 @@ height: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  gap: 27px;
   align-items: center;
   background-color: #071629;
   width: 1440px;
   height: 502px;
   color: white;
+  margin-top: 87px;
 }
 
 .members {
@@ -279,6 +294,7 @@ height: 15px;
   align-items: center;
   width: 920px;
   height: 707px;
+  margin-top: 67px;
 }
 
 .faqs>h2 {
@@ -288,13 +304,15 @@ height: 15px;
 
 .faq-container {
   display: flex;
-  gap: 250px;
+  justify-content: space-around;
+  gap: 220px;
 }
 
 .faq-box-col {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  justify-content: space-around;
+  gap: 74px;
 }
 
 .faq-box {
@@ -318,6 +336,8 @@ footer {
   height: 249px;
   background-color: #071629;
   color: white;
+  margin-top: 84px;
+  margin-bottom: 0;
 }
 .footer-section {
   display: flex;
@@ -333,7 +353,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: stretch;
-  gap: 500px;
+  gap: 800px;
 }
 
 .logo-container {
@@ -344,7 +364,7 @@ footer {
   flex: auto;
 }
 
-.logo-footer {
+.logo {
   width: 36px;
   height: 29px;
   margin: 10px;
@@ -354,6 +374,7 @@ footer {
   font-family: Coiny;
   font-size: 18px;
   margin: 0;
+  color: white;
 }
 
 .social-medias>i {
