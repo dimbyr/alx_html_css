@@ -313,6 +313,12 @@ height: 15px;
   opacity: 50%;
 }
 
+footer {
+  width: 1440px;
+  height: 249px;
+  background-color: #071629;
+  color: white;
+}
 .footer-section {
   display: flex;
   flex-direction: column;
@@ -320,14 +326,43 @@ height: 15px;
   align-items: center;
   width: 1440px;
   height: 249px;
-  /* background-color: #071629; */
+  gap: 50px;
 }
 
 .footer-contents {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  /* gap: 500px; */
- 
+  justify-content: stretch;
+  gap: 500px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex: auto;
+}
+
+.logo-footer {
+  width: 36px;
+  height: 29px;
+  margin: 10px;
+}
+
+.schoolname {
+  font-family: Coiny;
+  font-size: 18px;
+  margin: 0;
+}
+
+.social-medias>i {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-section>p {
+  font-size: 12px;
+  opacity: 35%;
 }
 
