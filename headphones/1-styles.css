@@ -1,0 +1,16 @@
+header {
+  background-image: url(../images/headphone-header-background.png);
+  background-size: cover;
+  color: #ffffff;
+}
+
+.results {
+  background-image: url(../images/headphones-results-background.png);
+  background-size: cover;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #071629;
+  color: #ffffff;
+}
