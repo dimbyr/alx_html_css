@@ -171,7 +171,7 @@ footer {
 
   .menu-icon, .close-button {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     left: 10%;
     top: 10%;
