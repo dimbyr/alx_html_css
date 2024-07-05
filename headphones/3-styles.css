@@ -115,6 +115,7 @@ h1 {
   text-align: center;
   font-size: 16px;
   margin: 10%;
+  max-width: 1000px;
 }
 
 .call-to-action {
@@ -209,6 +210,18 @@ footer {
   color: #ffffff;
   align-self: stretch;
   flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-section {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 input, textarea {
@@ -226,6 +239,11 @@ input, textarea {
   font-size: 14px;
   font-weight: 600;
   width: 100%;
+}
+
+.copyright {
+  font-size: 12px;
+  opacity: 35%;
 }
 
 @media screen and (max-width: 1024px){
@@ -312,8 +330,6 @@ input, textarea {
     padding: 30px;
   }
 
-  
-
 }
 
 @media screen and (max-width: 500px) {
@@ -321,5 +337,16 @@ input, textarea {
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     gap: auto;
+  }
+
+  footer {
+    gap: 30px;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
   }
 }
