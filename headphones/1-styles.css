@@ -134,6 +134,40 @@ h1 {
   opacity: 0.9
 }
 
+main, section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 207px;
+  height: 180px;
+}
+
+.music-icons {
+  width: 94px;
+  height: 65px;
+}
+
+.caption {
+  font-size: 14px;
+  text-align: center;
+}
+
 .results {
   background-image: url(../images/headphones-results-background.png);
   background-size: cover;
