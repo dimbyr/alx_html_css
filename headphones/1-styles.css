@@ -143,10 +143,8 @@ main, section {
 }
 
 .services {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .service {
@@ -180,7 +178,7 @@ footer {
 }
 
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1024px){
   /* .navbar {
     display: flex;
     flex-direction: row;
@@ -205,7 +203,7 @@ footer {
 
   .menu-icon, .close-button {
     display: inline-block;
-    position: fixed;
+    position: absolute;
     cursor: pointer;
     left: 10%;
     top: 10%;
@@ -254,4 +252,22 @@ footer {
     width: auto;
   }
 
+  .services {
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    gap: auto;
+  }
+
+  .service {
+    padding: 30px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .services {
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+    gap: auto;
+  }
 }
