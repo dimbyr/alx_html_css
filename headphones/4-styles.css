@@ -4,7 +4,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 0;
+  margin: auto;
+  max-width: 1000px;
 }
 
 header {
@@ -171,6 +172,7 @@ main, section {
   background-image: url(../images/headphones-results-background.png);
   background-size: cover;
   color: #ffffff;
+  width: 100%;
 }
 
 .polygons {
