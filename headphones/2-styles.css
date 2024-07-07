@@ -4,7 +4,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 0;
+  margin: auto;
+  width: 1000px;
 }
 
 header {
@@ -15,8 +16,9 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
-  max-width: 1400px;
+  align-self: stretch;
+  /* width: 100%;
+  max-width: 1400px; */
   height: 800px;
 }
 
@@ -140,6 +142,7 @@ main, section {
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
+  align-self: stretch;
 }
 
 .services, .polygons {
