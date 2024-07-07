@@ -4,7 +4,8 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  margin: 0;
+  margin: auto;
+  max-width: 1000px;
 }
 
 header {
@@ -15,9 +16,13 @@ header {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  align-self: stretch;
   width: 100%;
-  max-width: 1400px;
   height: 800px;
+}
+
+main {
+  align-self: stretch;
 }
 
 .toggler {
@@ -143,6 +148,10 @@ main, section {
   padding-bottom: 50px;
 }
 
+section {
+  align-self: stretch;
+}
+
 .services, .polygons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -171,6 +180,8 @@ main, section {
   background-image: url(../images/headphones-results-background.png);
   background-size: cover;
   color: #ffffff;
+  /* width: 1400px; */
+  align-self: stretch;
 }
 
 .polygons {
